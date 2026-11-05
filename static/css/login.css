@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Microsoft YaHei", "PingFang SC", -apple-system, sans-serif;
+  background: #f0f2f5;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.login-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 40px 36px;
+  width: 360px;
+}
+
+.login-title {
+  font-size: 28px;
+  text-align: center;
+  color: #1f2d3d;
+}
+
+.login-subtitle {
+  text-align: center;
+  color: #8492a6;
+  margin: 8px 0 24px;
+  font-size: 14px;
+}
+
+.login-error {
+  color: #f56c6c;
+  font-size: 13px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.login-form label {
+  display: block;
+  font-size: 14px;
+  color: #475669;
+  margin: 12px 0 4px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #d3dce6;
+  border-radius: 4px;
+  outline: none;
+}
+
+.login-form input:focus {
+  border-color: #409eff;
+}
+
+.login-form button {
+  width: 100%;
+  margin-top: 24px;
+  padding: 10px;
+  font-size: 15px;
+  color: #fff;
+  background: #409eff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background: #3a8ee6;
+}
